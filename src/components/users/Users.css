@@ -1,0 +1,96 @@
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 70px;
+  left: 20px;
+  border-collapse: collapse;
+  background-color: rgb(233, 223, 223);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+table tr {
+  font-weight: 400;
+  color: black;
+  background-color: #f2f2f2;
+}
+
+table td {
+  padding: 20px;
+}
+
+table tr:nth-child(even) {
+  background-color: #fcf9f9;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+.delete-user {
+  background-color: #bd3333;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 4px;
+  transition: 0.2s linear;
+  border: 1px solid lightgray;
+}
+
+footer {
+  position: relative;
+  top: 120px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.edit-button {
+  background-color: rgb(12, 64, 150);
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 4px;
+  transition: 0.2s linear;
+  border: 1px solid lightgray;
+}
+
+#users-table .highlight {
+  background-color: antiquewhite;
+}
+
+.three-dots-menu:after {
+  content: "\2807";
+  font-size: 15px;
+}
+
+.header {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header input {
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.header button {
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+}

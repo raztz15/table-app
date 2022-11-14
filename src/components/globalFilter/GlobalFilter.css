@@ -1,0 +1,19 @@
+.search-container {
+  position: relative;
+  top: 45px;
+  left: 50px;
+  padding: 4px;
+  margin: auto;
+}
+
+.search-container label {
+  font-weight: 600;
+}
+.search-container input {
+  padding: 8px;
+}
+
+.search-container button {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,67 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  padding: 8px;
+  width: fit-content;
+  min-width: 350px;
+  background: whitesmoke;
+  border: 1px solid black;
+  row-gap: 4px;
+  border-radius: 2px;
+}
+
+form label {
+  font-size: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 2px;
+}
+
+form input {
+  padding: 8px;
+}
+
+form button {
+  cursor: pointer;
+  border-color: rgb(49, 48, 47);
+  align-self: flex-end;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(12, 64, 150);
+  background-color: rgb(151, 143, 143);
+  border-radius: 4px;
+}
+
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  /* background-image: linear-gradient(white, #585858); */
+  background-color: rgb(233, 223, 223);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 50%;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.15);
+}
+
+span {
+  font-size: 18px;
+}
+
+span:hover {
+  font-weight: 800;
+  cursor: pointer;
+}
